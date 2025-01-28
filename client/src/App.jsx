@@ -7,7 +7,7 @@ import StatsSection from "./components/StateSection";
 import Courses from "./Pages/student/Courses";
 import MyLearning from "./Pages/student/MyLearning";
 import Footer from "./components/Footer";
-import HS from "./components/Hs";
+import HS from "./components/HS"
 import Profile from "./Pages/student/Profile";
 import Sidebar from "./Pages/admin/Sidebar";
 import Dashboard from "./Pages/admin/Dashboard";
