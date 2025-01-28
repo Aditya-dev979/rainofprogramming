@@ -5,7 +5,7 @@ export const courseApi = createApi({
   reducerPath: "courseApi",
   tagTypes: ["CreatorCourse"],
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8080/api/v1/course",
+    baseUrl: "https://rainofprogramming.onrender.com/api/v1/course",
     credentials: "include",
   }),
   endpoints: (builder) => ({

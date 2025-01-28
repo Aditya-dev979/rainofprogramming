@@ -5,7 +5,7 @@ import { userLoggedIn, userLoggedOut } from "../authSlice";
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8080/api/v1/user",
+    baseUrl: "https://rainofprogramming.onrender.com/api/v1/user",
     credentials: "include",
   }),
   endpoints: (builder) => ({
