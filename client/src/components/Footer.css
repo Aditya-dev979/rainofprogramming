@@ -1,0 +1,132 @@
+.footer {
+    background: linear-gradient(
+        rgba(255, 0, 149, 0.062),
+        rgba(0, 150, 255, 0.062)
+      ),
+      url('/bg_4.jpg') no-repeat center center / cover;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo h3 {
+    font-size: 24px;
+    color: #ff0096;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #00bfff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a{
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+  }
+
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #ff0096;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #00bfff;
+  }
+  
+  .footer-section img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .footer-section img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-bottom p {
+    color: black;
+    font-size: 18px;
+  }
+
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-section ul {
+      text-align: left;
+      display: inline-block;
+    }
+  
+    .social-icons {
+      margin-top: 15px;
+    }
+  }
+  

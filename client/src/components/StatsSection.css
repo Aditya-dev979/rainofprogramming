@@ -1,0 +1,94 @@
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: 
+    linear-gradient(
+      rgba(255, 0, 150, 0.4), 
+      rgba(0, 150, 255, 0.4)
+    ),
+    url('/bg_4.jpg') no-repeat 70% 70% / cover; */
+    background-color: rgba(224, 224, 224, 0.637);
+  padding: 100px;
+  color:gray;
+  text-align: center;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column; /* Stack content vertically by default */
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px; /* Adjust spacing between icon and text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-content {
+  text-align: center; /* Center align text below icons */
+}
+
+.stats-content h2 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.stats-content p {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+}
+
+.icon.online-courses::before {
+  content: "📚"; 
+}
+
+.icon.students-enrolled::before {
+  content: "🎓";
+}
+
+.icon.experts-instructors::before {
+  content: "👨‍🏫";
+}
+
+.icon.hours-content::before {
+  content: "⏰";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stats-section {
+    flex-direction: column;
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .stats-item {
+    margin-bottom: 20px;
+    flex-direction: row; /* Align icon and numbers side-by-side */
+    justify-content: flex-start; /* Align to the left */
+    width: 100%; /* Full width for better alignment */
+  }
+
+  .icon {
+    margin-right: 15px; /* Add spacing for side-by-side layout */
+    font-size: 35px; /* Slightly smaller icon size for phones */
+  }
+
+  .stats-content {
+    text-align: left; /* Align text to the left */
+  }
+
+  .stats-content h2 {
+    font-size: 28px; /* Reduce font size for smaller screens */
+  }
+
+  .stats-content p {
+    font-size: 14px; /* Adjust text size for better readability */
+  }
+}
